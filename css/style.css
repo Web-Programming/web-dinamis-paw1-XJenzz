@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #585c68;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+    width: auto;
+    
+}
+
+.container .box-left{
+    position: initial;
+    width: 270px;
+    background-color: #333e51;
+}
+
+.container .box-left .profile{
+    width: 100%;
+    height: 280px;
+}
+
+.container .box-left .profile img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .box-left .content {
+    padding: 0 25px;
+}
+
+.container .resume-item {
+    padding: 25px ;
+    border-bottom: 2px solid #333e515e;
+}
+
+.container .title {
+    margin-bottom: 10px;
+}
+
+.container .box-left .bold {
+    color: #fff;
+    padding: 20;
+}
+
+.container .box-left h2 {
+    color: #fff;
+    padding: 20;
+    text-indent: 22px;
+}
+
+.container .box-left b ,br{
+    color: #fff;
+    padding: 20;
+    text-indent: 22px;
+    margin: 22px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.container .box-right {
+    width: 440px;
+    position: initial;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    
+}
+
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Experience, .pendidikan {
+    margin-bottom: 50px;
+}
